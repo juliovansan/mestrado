@@ -48,7 +48,7 @@ GPIO.setup(botaoAmarelo, GPIO.IN)
 GPIO.setup(botaoVermelho, GPIO.IN)
 
 # API MS Face
-KEY = 'd6341b3f7130422f8f4502fd6ec4b85b'  # Chave da API .
+KEY = '#######'  # Chave da API .
 CF.Key.set(KEY)
 BASE_URL = 'https://brazilsouth.api.cognitive.microsoft.com/face/v1.0/'  # URL Regional
 CF.BaseUrl.set(BASE_URL)
@@ -405,9 +405,9 @@ def mandaFTP(caminhoLocal):
     #host = "192.168.0.30"
     #username = "rasp"
     #password = "123"
-    host = "ftp.vansan.com.br"
-    username = "MatematicaEmocao@vansan.com.br"
-    password = "s8Nu#ORyv.V?WD3PUw"
+    host = "####"
+    username = "#####"
+    password = "######"
  
     try:
         caminhoRemoto='STOR '+caminhoLocal
